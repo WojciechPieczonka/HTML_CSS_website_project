@@ -1,0 +1,67 @@
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.navigation {
+  background-color: #4e4e4e;
+  width: 1280px;
+  height: 50px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+.link-list {
+  display: flex;
+  margin: 15px;
+}
+.link-offer {
+  margin: auto 50px;
+}
+.link-contact {
+  margin-right: 90px;
+  cursor: not-allowed;
+}
+.company-name {
+  display: flex;
+  align-items: center;
+  margin-left: 94px;
+}
+.header {
+  color: #ffffff;
+  background-image: url(images/section_background.png);
+  background-repeat: no-repeat;
+  width: 1280px;
+  height: 574px;
+  padding-left: 90px;
+}
+.button {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  border: 3px solid #ffffff;
+  padding: 14px 58px;
+  position: absolute;
+  margin-top: 100px;
+}
+.specialists {
+  width: 1280px;
+  height: 2000px;
+  background-color: #f1f1f1;
+  color: #000000;
+  margin-top: auto;
+}
+.services {
+  width: 1280px;
+  height: 689px;
+  background: #405d78;
+  color: #ffffff;
+}
+.footer {
+  width: 1280px;
+  height: 71px;
+  background-color: #4e4e4e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
