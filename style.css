@@ -1,6 +1,8 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+.container {
+}
 a {
   text-decoration: none;
   color: #ffffff;
@@ -64,7 +66,14 @@ a {
   height: 71px;
   background-color: #4e4e4e;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   color: #ffffff;
+}
+.icons {
+  font-size: 40px;
+}
+.icons-list {
+  display: flex;
+  justify-content: space-between;
 }
