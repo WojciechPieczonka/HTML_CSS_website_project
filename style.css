@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -45,7 +48,7 @@ a {
   background-image: url(images/section_background.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: calc(100vh - 50px);
 }
 .box {
   padding-top: 200px;
