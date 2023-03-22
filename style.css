@@ -21,6 +21,9 @@ a {
   display: flex;
   align-items: center;
   margin: 15px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
 }
 .link-offer {
   margin: auto 40px;
@@ -32,7 +35,10 @@ a {
 .company-name {
   display: flex;
   align-items: center;
-  margin-left: 50px;
+  margin-left: 100px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
 }
 .header {
   color: #ffffff;
@@ -89,11 +95,14 @@ a {
   color: #ffffff;
 }
 .icons {
-  font-size: 40px;
+  font-size: 30px;
 }
 .icons-list {
   display: flex;
   justify-content: space-between;
+}
+.fb-icon {
+  margin-left: 20px;
 }
 .button:hover {
   background-color: white;
